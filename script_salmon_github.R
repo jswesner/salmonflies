@@ -4,6 +4,12 @@ library(tidyverse)
 library(scales)
 library(viridis)
 library(ggstance)
+library(rstan)
+#######IMPORTANT#####
+#####You will need to download the C++ compiler outside of R first###
+#####Nothing will work if it is not installed first###
+#####Follow these instructions to download the C++ compiler and install RStan (which runs the Hamiltonian Monte Carlo)
+#####https://github.com/stan-dev/rstan/wiki/Installing-RStan-on-Windows
 
 
 
